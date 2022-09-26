@@ -1,0 +1,16 @@
+def rectangles(strings):
+    tops = []
+    rects = 0
+    for y, string in enumerate(strings):
+        currentrect = 0
+        currentcorner = 0
+        for x, char in enumerate(string):
+            if char = "+":
+                if currentcorner = 1:
+                    coords[currentrect].append((x, y))
+                if currentcorner = 0:
+
+                if currentrect = len(coords):
+                    coords.append([])
+                
+    return rects

@@ -1,0 +1,27 @@
+def encode(plain_text, a, b):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    # Cleaning the string by:
+    # getting rid of all nonalphabetic characters 
+    # converting all alphabetic characters to lowercase
+    cleaned = [] 
+    for char in plain_text: 
+        if char.isalpha():
+            cleaned.append(char.lower())
+        elif char.isdigit():
+            cleaned.append(char)
+    # implements encryption function
+    # and adds a space every 5 letters
+    output = []
+    counter = 0
+    for char in "".join(cleaned):
+        if char.isalpha():
+            output.append(alphabet[(a * alphabet.index(char) + b) % 26])
+            counter += 1
+
+        else:
+            counter += 1
+            output.append(char)
+    return "".join(output)
+ 
+def decode(ciphered_text, a, b):
+    pass

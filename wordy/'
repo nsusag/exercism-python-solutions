@@ -1,0 +1,7 @@
+def answer(question):
+    split = question[:len(question) - 1].split()
+    buff = [] 
+    for i, word in split:
+        if word == "plus" and output != []:
+            buff[0] += int(split[i + 1]) 
+        if word == "
