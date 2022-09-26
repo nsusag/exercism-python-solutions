@@ -9,7 +9,7 @@ a \_\_pycache\_\_ folder, which contains helper code for that test suite,
 and a README.md file, explaining what the problem is.  
 
 Of these, only \<FOLDER NAME\>.py is my original work. 
-All other files were created by those who work on www.exercism.com.
+All other files were created by those who work on https://www.exercism.org.
 Should anybody object to my rehosting of these files, I am happy to amend this repository as they wish.
 
 All of these files date from June to August of 2020.
