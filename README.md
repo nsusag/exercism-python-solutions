@@ -8,7 +8,7 @@ Inside each folder is:
 a \_\_pycache\_\_ folder, which contains helper code for that test suite,  
 and a README.md file, explaining what the problem is.  
 
-Only \<FOLDER NAME\>.py is my original work. 
+Of these, only \<FOLDER NAME\>.py is my original work. 
 All other files were created by those who work on www.exercism.com.
 Should anybody object to my rehosting of these files, I am happy to amend this repository as they wish.
 
